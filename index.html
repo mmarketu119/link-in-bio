@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
 
     <title> Melissa's Link in Bio DPI Project </title>
 
     <style>
-      *{
-        border: 1px blueviolet solid;
-      }
-
       .image_row{
         margin-bottom: 20px;
         text-align: center;
+        justify-content: center;
       }
 
       .name_row{
-        margin-bottom: 30px;
+        margin-bottom: 36px;
         text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        color: rgb(85, 26, 139) ;
       }
 
       .link_row{
         margin-bottom: 30px;
-
       }
 
       .social_icons{
-        margin-bottom: 30px;
+        margin-bottom: 36px;
         display: flex;
         justify-content: space-around;
+        text-decoration: none;
       }
 
       .items{
         margin-bottom: 30px;
         display: flex;
         align-items: center;
-
+        background-color: rgba(97, 40, 145, 0.49);
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
       }
 
-      .avatar-image {
+      .avatar_image {
         width: 160px;
         height: 160px;
         object-fit: cover;
         border-radius: 100%;
+        
       }
 
       .thumbnail {
          width: 48px;
           height: 48px;
           border-radius: 48px;
-          object-fit: cover
+          object-fit: cover;
+          margin: 15px;
       }
 
       .main_container {
@@ -59,60 +65,75 @@
         margin: auto;
       }
 
-      html{
+      .link_text {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+
+      html {
         min-height: 100%;
       }
 
-      body {
+     body {
         min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
         background: linear-gradient(135deg, #ffe5ce, #ffd0ba, #ffb9b0, #ffa2b0, #fd8dba, #ec7cca, #cd72de, #9c71f2);
-      }
-
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: medium;
     </style>
-
   </head>
 
   <body>
     <div class="main_container">
-    
-    <div>
-      <img src="https://media.licdn.com/dms/image/v2/C4E03AQGDPpdbO6gS9A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1606594492285?e=1756944000&v=beta&t=On1TjwE_hxu4_TU89QBATcIPaQtKt7gHyoBwU1ROhvI" alt="Melissa linkedin profile photo" class="avatar-image" >
+
+    <div class="image_row">
+      <img src="https://media.licdn.com/dms/image/v2/C4E03AQGDPpdbO6gS9A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1606594492285?e=1756944000&v=beta&t=On1TjwE_hxu4_TU89QBATcIPaQtKt7gHyoBwU1ROhvI" alt="Melissa linkedin profile photo" class="avatar_image">
     </div>
 
     <div class="name_row">
-      <p>Melissa English</p>
+      <p><strong>Melissa English</strong></p>
     </div>
 
     <div class="social_icons">
-      <a href="https://www.linkedin.com/in/melissa-english042699/">Linkedin</a>
-      <a href="https://github.com/mmarketu119">GitHub</a>
-      <a href="https://www.facebook.com/profile.php?id=100091380241473">Facebook</a>
+      <a href="https://www.linkedin.com/in/melissa-english042699/" target="_blank"><i class="fa-brands fa-linkedin"></i> 
+        Linkedin
+      </a>
+
+      <a href="https://github.com/mmarketu119" target="_blank"><i class="fa-brands fa-github"></i>
+         GitHub
+        </a>
+
+      <a href="https://www.facebook.com/profile.php?id=100091380241473" target="_blank"> <i class="fa-brands fa-facebook"></i>
+        Facebook
+      </a>
     </div>
 
   <div class="link_row">
-
     <div class="items">
-      <img src="">
-      <a href="https://www.momontimeout.com/easy-chicken-stir-fry-recipe/" alt="An easy chicken stir fry recipe">Chicken Stir Fry Recipe</a>
+      <img src="thumbnail_images/broccoli-1835631_1280.jpg" alt="Chicken Stir Fry" class="thumbnail">
+      <a href="https://www.momontimeout.com/easy-chicken-stir-fry-recipe/" target="_blank" alt="An easy chicken stir fry recipe" class="link_text">Chicken Stir Fry Recipe</a>
     </div>
 
     <div class="items">
-      <img src="">
-      <a href="https://blog.hubspot.com/marketing/marketing-plan-template-generator?hubs_content=www.hubspot.com/&hubs_content-cta=nav-resources-blogs" alt="A Hubspot artcle on creating an effective digital marketing plan">Digital Marketing Template From Hubspot</a>
+      <img src="thumbnail_images/marketing-strategies-3105875_1280.jpg" alt="Hubspot Digital Marketing Template" class="thumbnail">
+      <a href="https://blog.hubspot.com/marketing/marketing-plan-template-generator?hubs_content=www.hubspot.com/&amp;hubs_content-cta=nav-resources-blogs" target="_blank" alt="A Hubspot artcle on creating an effective digital marketing plan" class="link_text">Digital Marketing Template From Hubspot</a>
     </div>
 
     <div class="items">
-      <img src="">
-      <a href="https://adrimukund.medium.com/what-is-a-linktree-and-why-is-it-important-c532f7f20863" alt="A medium article on why people should use linktrees">Why People Use Linktrees</a>
+      <img src="thumbnail_images/smartphone-6372154_1280.jpg" alt="Paper Clip In An Cirle" class="thumbnail">
+      <a href="https://adrimukund.medium.com/what-is-a-linktree-and-why-is-it-important-c532f7f20863" target="_blank" alt="A medium article on why people should use linktrees" class="link_text">Why People Use Linktrees</a>
     </div>
 
     <div class="items">
-      <img src="">
-      <a href="https://www.linkedin.com/advice/3/whats-best-way-showcase-your-coding-skills-job-bnjef" alt="Linkedin article on how to show coding skills on resumes" >Coding Skills On Your Resume</a>
-    </div>   
-
+      <img src="thumbnail_images/social-media-1795578_1280.jpg" alt="linkedin Resume Builder Image" class="thumbnail">
+      <a href="https://www.linkedin.com/advice/3/whats-best-way-showcase-your-coding-skills-job-bnjef" target="_blank" alt="Linkedin article on how to show coding skills on resumes" class="link_text">Coding Skills On Your Resume</a>
+    </div>  
   </div>
 
   </div>   
