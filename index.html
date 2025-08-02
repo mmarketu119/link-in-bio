@@ -1,44 +1,120 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title> Melissa's Link in Bio DPI Project </title>
+
     <style>
-      .gridcolor{
-        border: 3px blueviolet solid
+      *{
+        border: 1px blueviolet solid;
       }
+
+      .image_row{
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name_row{
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+      .link_row{
+        margin-bottom: 30px;
+
+      }
+
+      .social_icons{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .items{
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+
+      }
+
+      .avatar-image {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 100%;
+      }
+
+      .thumbnail {
+         width: 48px;
+          height: 48px;
+          border-radius: 48px;
+          object-fit: cover
+      }
+
+      .main_container {
+        max-width: 640px;
+        margin: auto;
+      }
+
+      html{
+        min-height: 100%;
+      }
+
+      body {
+        min-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(135deg, #ffe5ce, #ffd0ba, #ffb9b0, #ffa2b0, #fd8dba, #ec7cca, #cd72de, #9c71f2);
+      }
+
     </style>
+
   </head>
 
   <body>
-
-    <div class="gridcolor">
-      <p>Image</p>
+    <div class="main_container">
+    
+    <div>
+      <img src="https://media.licdn.com/dms/image/v2/C4E03AQGDPpdbO6gS9A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1606594492285?e=1756944000&v=beta&t=On1TjwE_hxu4_TU89QBATcIPaQtKt7gHyoBwU1ROhvI" alt="Melissa linkedin profile photo" class="avatar-image" >
     </div>
 
-    <div class="gridcolor">
-      <p>Name</p>
+    <div class="name_row">
+      <p>Melissa English</p>
     </div>
 
-    <div class="gridcolor">
-      <p>Socials</p>
+    <div class="social_icons">
+      <a href="https://www.linkedin.com/in/melissa-english042699/">Linkedin</a>
+      <a href="https://github.com/mmarketu119">GitHub</a>
+      <a href="https://www.facebook.com/profile.php?id=100091380241473">Facebook</a>
     </div>
 
-    <div class="gridcolor">
-      <p>Link 1</p>
+  <div class="link_row">
+
+    <div class="items">
+      <img src="">
+      <a href="https://www.momontimeout.com/easy-chicken-stir-fry-recipe/" alt="An easy chicken stir fry recipe">Chicken Stir Fry Recipe</a>
     </div>
 
-    <div class="gridcolor">
-      <p>Link 2</p>
+    <div class="items">
+      <img src="">
+      <a href="https://blog.hubspot.com/marketing/marketing-plan-template-generator?hubs_content=www.hubspot.com/&hubs_content-cta=nav-resources-blogs" alt="A Hubspot artcle on creating an effective digital marketing plan">Digital Marketing Template From Hubspot</a>
     </div>
 
-    <div class="gridcolor">
-      <p>Link 3</p>
+    <div class="items">
+      <img src="">
+      <a href="https://adrimukund.medium.com/what-is-a-linktree-and-why-is-it-important-c532f7f20863" alt="A medium article on why people should use linktrees">Why People Use Linktrees</a>
     </div>
 
-    <div class="gridcolor">
-      <p>Etc</p>
-    </div>    
+    <div class="items">
+      <img src="">
+      <a href="https://www.linkedin.com/advice/3/whats-best-way-showcase-your-coding-skills-job-bnjef" alt="Linkedin article on how to show coding skills on resumes" >Coding Skills On Your Resume</a>
+    </div>   
 
+  </div>
+
+  </div>   
   </body>
 </html>
